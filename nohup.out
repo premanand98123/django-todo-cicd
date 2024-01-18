@@ -1,0 +1,18 @@
+Watching for file changes with StatReloader
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+Not Found: /.env
+[18/Jan/2024 16:13:55] "GET /.env HTTP/1.1" 404 2553
+[18/Jan/2024 16:26:07] "GET /todos/ HTTP/1.1" 200 4113
+[18/Jan/2024 16:26:07] "GET /static/css/style.css HTTP/1.1" 304 0
+[18/Jan/2024 16:26:42] "GET /todos/ HTTP/1.1" 200 4113
+[18/Jan/2024 16:31:06] "GET /todos/ HTTP/1.1" 200 4113
+[18/Jan/2024 16:31:07] "GET /static/css/style.css HTTP/1.1" 304 0
+[18/Jan/2024 16:37:46] "GET / HTTP/1.1" 302 0
+[18/Jan/2024 16:37:47] "GET /todos/ HTTP/1.1" 200 4113
+[18/Jan/2024 16:37:49] "GET /static/css/style.css HTTP/1.1" 304 0
